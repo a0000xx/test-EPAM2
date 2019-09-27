@@ -1,4 +1,4 @@
-import java.io.IOException;
+﻿import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -63,7 +63,7 @@ public class Main {
             }
             else if(n==3){
                 LOGGER.info("Выбрана функция создания задач");
-                System.out.println("Введите названия:задачи,проекта,темы,типа,приоритета,исполнителя и описание");
+                System.out.println("Введите Названия:задачи,проекта,темы,типа,приоритета,ID исполнителя и описание");
                 String nameOfTask = input.next();
                 String project=input.next();
                 String topic = input.next();
